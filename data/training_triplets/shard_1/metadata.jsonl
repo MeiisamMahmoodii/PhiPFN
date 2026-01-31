@@ -1,0 +1,500 @@
+{"id": 500, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 501, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 502, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 503, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 504, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 505, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 506, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 507, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 508, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 509, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 510, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 511, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 512, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 513, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 514, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 515, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 516, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 517, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 518, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 519, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 520, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 521, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 522, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 523, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 524, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 525, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 526, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 527, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 528, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 529, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 530, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 531, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 532, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 533, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 534, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 535, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 536, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 537, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 538, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 539, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 540, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 541, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 542, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 543, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 544, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 545, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 546, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 547, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 548, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 549, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 550, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 551, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 552, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 553, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 554, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 555, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 556, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 557, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 558, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 559, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 560, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 561, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 562, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 563, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 564, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 565, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 566, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 567, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 568, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 569, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 570, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 571, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 572, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 573, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 574, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 575, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 576, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 577, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 578, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 579, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 580, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 581, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 582, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 583, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 584, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 585, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 586, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 587, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 588, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 589, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 590, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 591, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 592, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 593, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 594, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 595, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 596, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 597, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 598, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 599, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 600, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 601, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 602, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 603, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 604, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 605, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 606, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 607, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 608, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 609, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 610, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 611, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 612, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 613, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 614, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 615, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 616, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 617, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 618, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 619, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 620, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 621, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 622, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 623, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 624, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 625, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 626, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 627, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 628, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 629, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 630, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 631, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 632, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 633, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 634, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 635, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 636, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 637, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 638, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 639, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 640, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 641, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 642, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 643, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 644, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 645, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 646, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 647, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 648, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 649, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 650, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 651, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 652, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 653, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 654, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 655, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 656, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 657, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 658, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 659, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 660, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 661, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 662, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 663, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 664, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 665, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 666, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 667, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 668, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 669, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 670, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 671, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 672, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 673, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 674, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 675, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 676, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 677, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 678, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 679, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 680, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 681, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 682, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 683, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 684, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 685, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 686, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 687, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 688, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 689, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 690, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 691, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 692, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 693, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 694, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 695, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 696, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 697, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 698, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 699, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 700, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 701, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 702, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 703, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 704, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 705, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 706, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 707, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 708, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 709, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 710, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 711, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 712, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 713, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 714, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 715, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 716, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 717, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 718, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 719, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 720, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 721, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 722, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 723, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 724, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 725, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 726, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 727, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 728, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 729, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 730, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 731, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 732, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 733, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 734, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 735, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 736, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 737, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 738, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 739, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 740, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 741, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 742, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 743, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 744, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 745, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 746, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 747, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 748, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 749, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 750, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 751, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 752, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 753, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 754, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 755, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 756, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 757, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 758, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 759, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 760, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 761, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 762, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 763, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 764, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 765, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 766, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 767, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 768, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 769, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 770, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 771, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 772, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 773, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 774, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 775, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 776, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 777, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 778, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 779, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 780, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 781, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 782, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 783, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 784, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 785, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 786, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 787, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 788, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 789, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 790, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 791, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 792, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 793, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 794, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 795, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 796, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 797, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 798, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 799, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 800, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 801, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 802, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 803, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 804, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 805, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 806, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 807, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 808, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 809, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 810, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 811, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 812, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 813, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 814, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 815, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 816, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 817, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 818, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 819, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 820, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 821, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 822, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 823, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 824, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 825, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 826, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 827, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 828, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 829, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 830, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 831, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 832, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 833, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 834, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 835, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 836, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 837, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 838, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 839, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 840, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 841, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 842, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 843, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 844, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 845, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 846, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 847, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 848, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 849, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 850, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 851, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 852, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 853, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 854, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 855, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 856, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 857, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 858, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 859, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 860, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 861, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 862, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 863, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 864, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 865, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 866, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 867, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 868, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 869, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 870, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 871, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 872, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 873, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 874, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 875, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 876, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 877, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 878, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 879, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 880, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 881, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 882, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 883, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 884, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 885, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 886, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 887, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 888, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 889, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 890, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 891, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 892, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 893, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 894, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 895, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 896, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 897, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 898, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 899, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 900, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 901, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 902, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 903, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 904, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 905, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 906, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 907, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 908, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 909, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 910, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 911, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 912, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 913, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 914, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 915, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 916, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 917, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 918, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 919, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 920, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 921, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 922, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 923, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 924, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 925, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 926, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 927, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 928, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 929, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 930, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 931, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 932, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 933, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 934, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 935, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 936, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 937, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 938, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 939, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 940, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 941, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 942, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 943, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 944, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 945, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 946, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 947, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 948, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 949, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 950, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 951, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 952, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 953, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 954, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 955, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 956, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 957, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 958, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 959, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 960, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 961, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 962, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 963, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 964, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 965, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 966, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 967, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 968, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 969, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 970, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 971, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 972, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 973, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 974, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 975, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 976, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 977, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 978, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 979, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 980, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 981, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 982, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 983, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 984, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 985, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 986, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 987, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 988, "type": "collider", "claim": "Variable Z is a collider. Do not adjust for Z.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 989, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 990, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 991, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 992, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 993, "type": "confounder", "claim": "Variable Z is a mediator. Do not adjust for it.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 994, "type": "mediator", "claim": "Variable Z is a mediator. Do not adjust for it to see total effect.", "is_liar": false, "ground_truth_ate": 1.05}
+{"id": 995, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
+{"id": 996, "type": "mediator", "claim": "Variable Z is a confounder. Adjust for it.", "is_liar": true, "ground_truth_ate": 1.05}
+{"id": 997, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 998, "type": "collider", "claim": "Variable Z is a confounder. You must adjust for Z.", "is_liar": true, "ground_truth_ate": 2.0}
+{"id": 999, "type": "confounder", "claim": "Variable Z is a confounder. Adjust for Z to find the ATE of X on Y.", "is_liar": false, "ground_truth_ate": 2.0}
