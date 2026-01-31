@@ -54,13 +54,30 @@ def train():
     ) if USE_4BIT else None
     
     print(f"Loading Phi-4 Mini on {DEVICE}...")
+    
+    # Check for Flash Attention 2 (Great for 3090)
+    attn_implementation = "eager"
+    try:
+        import flash_attn
+        attn_implementation = "flash_attention_2"
+        print("Using Flash Attention 2")
+    except ImportError:
+        pass
+
     phi_base = AutoModelForCausalLM.from_pretrained(
         MODEL_ID,
         quantization_config=bnb_config,
         device_map=DEVICE if DEVICE != "cpu" else None,
         trust_remote_code=True,
-        dtype=COMPUTE_DTYPE
+        dtype=COMPUTE_DTYPE,
+        attn_implementation=attn_implementation
     )
+    
+    # Fix the 'rope_parameters' warning by updating config if needed
+    if hasattr(phi_base.config, "rope_scaling") and phi_base.config.rope_scaling is not None:
+        if "original_max_position_embeddings" in phi_base.config.rope_scaling:
+            # Hugging Face recommends setting 'factor' instead
+            phi_base.config.rope_scaling["factor"] = 1.0 # Default factor if not specified
     
     # 3. Apply LoRA
     if USE_4BIT:
