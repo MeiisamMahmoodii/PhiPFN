@@ -9,10 +9,17 @@ from transformers import (
     BitsAndBytesConfig
 )
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
-from training.components import AxiomCausalModel, CausalDataCollator, LinearBridge
 import json
 from pathlib import Path
 import os
+import sys
+
+# Ensure project root is in path for direct script execution
+project_root = str(Path(__file__).resolve().parent.parent)
+if project_root not in sys.path:
+    sys.path.append(project_root)
+
+from training.components import AxiomCausalModel, CausalDataCollator, LinearBridge
 
 # --- Configuration ---
 MODEL_ID = "microsoft/Phi-4-mini-instruct"
