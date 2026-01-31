@@ -59,7 +59,7 @@ def train():
         quantization_config=bnb_config,
         device_map=DEVICE if DEVICE != "cpu" else None,
         trust_remote_code=True,
-        torch_dtype=COMPUTE_DTYPE
+        dtype=COMPUTE_DTYPE
     )
     
     # 3. Apply LoRA

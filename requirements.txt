@@ -1,7 +1,7 @@
 
 # Core ML Stack
 torch>=2.0.0
-transformers>=4.48.0
+transformers>=4.48.2
 accelerate>=1.1.0
 peft>=0.17.1
 datasets>=2.14.0  # Use a broad range for compatibility
@@ -14,10 +14,4 @@ tabpfn-extensions[embedding]>=0.2.2
 causal-learn>=0.1.4.4
 
 # Data & Utilities
-numpy
-pandas
-tqdm
-scikit-learn
-matplotlib
-jsonlines
-pathlib
+numpy pandas tqdm scikit-learn matplotlib jsonlines pathlib
