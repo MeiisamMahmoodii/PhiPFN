@@ -42,7 +42,7 @@ else:
 
 def train():
     # 1. Load Tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=False)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token
     
     # 2. Load Base Model
@@ -68,7 +68,7 @@ def train():
         MODEL_ID,
         quantization_config=bnb_config,
         device_map=DEVICE if DEVICE != "cpu" else None,
-        trust_remote_code=False,
+        trust_remote_code=True,
         dtype=COMPUTE_DTYPE,
         attn_implementation=attn_implementation
     )
@@ -160,7 +160,7 @@ def train():
         bf16=True if COMPUTE_DTYPE == torch.bfloat16 else False,
         fp16=True if COMPUTE_DTYPE == torch.float16 else False,
         save_strategy="epoch",
-        evaluation_strategy="no",
+        eval_strategy="no",
         remove_unused_columns=False, # Important for custom batch keys
         use_mps_device=(DEVICE == "mps")
     )
