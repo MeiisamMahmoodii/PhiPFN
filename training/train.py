@@ -69,7 +69,7 @@ def train():
         quantization_config=bnb_config,
         device_map=DEVICE if DEVICE != "cpu" else None,
         trust_remote_code=True,
-        dtype=COMPUTE_DTYPE,
+        torch_dtype=COMPUTE_DTYPE,
         attn_implementation=attn_implementation
     )
     
@@ -110,7 +110,7 @@ def train():
     monitor = ConvergenceMonitor()
 
     class AxiomTrainer(Trainer):
-        def compute_loss(self, model, inputs, return_outputs=False):
+        def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
             # Extract custom inputs
             latents = inputs.pop("latents").to(DEVICE)
             ate_labels = inputs.pop("ate_labels").to(DEVICE)
@@ -144,8 +144,11 @@ def train():
             # Log diagnostic info periodically
             if self.state.global_step % training_args.logging_steps == 0:
                 ratio_info = monitor.log(lm_loss, reg_loss, calib_loss)
-                if self.state.global_step % (training_args.logging_steps * 5) == 0:
-                    print(f"Step {self.state.global_step}: LM={lm_loss:.4f}, REG={reg_loss:.4f}, CAL={calib_loss:.4f} | {ratio_info}")
+                if self.state.global_step % (training_args.logging_steps * 10) == 0:
+                    lm_val = float(lm_loss.detach() if torch.is_tensor(lm_loss) else lm_loss)
+                    reg_val = float(reg_loss.detach() if torch.is_tensor(reg_loss) else reg_loss)
+                    cal_val = float(calib_loss.detach() if torch.is_tensor(calib_loss) else calib_loss)
+                    print(f"\n📊 Step {self.state.global_step:4d} | LM: {lm_val:6.3f} | REG: {reg_val:6.3f} | CAL: {cal_val:6.3f} | {ratio_info}")
             
             return (total_loss, outputs) if return_outputs else total_loss
 
@@ -159,10 +162,12 @@ def train():
         num_train_epochs=3,
         bf16=True if COMPUTE_DTYPE == torch.bfloat16 else False,
         fp16=True if COMPUTE_DTYPE == torch.float16 else False,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         save_strategy="epoch",
         eval_strategy="no",
         remove_unused_columns=False, # Important for custom batch keys
-        use_mps_device=(DEVICE == "mps")
+        use_mps_device=(DEVICE == "mps"),
+        save_safetensors=False  # Disable safetensors to avoid shared tensor issues
     )
     
     trainer = AxiomTrainer(
@@ -172,8 +177,28 @@ def train():
         data_collator=collator,
     )
     
-    print("Starting Training...")
+    print(f"\n{'='*70}")
+    print(f"🚀 TRAINING CONFIGURATION")
+    print(f"{'='*70}")
+    print(f"Model:           {MODEL_ID}")
+    print(f"Device:          {DEVICE}")
+    print(f"Precision:       {COMPUTE_DTYPE}")
+    print(f"Training Data:   {len(train_dataset)} examples")
+    print(f"Batch Size:      {training_args.per_device_train_batch_size} x {training_args.gradient_accumulation_steps} (effective: {training_args.per_device_train_batch_size * training_args.gradient_accumulation_steps})")
+    print(f"Learning Rate:   {training_args.learning_rate:.2e}")
+    print(f"Epochs:          {training_args.num_train_epochs}")
+    print(f"Output:          {OUTPUT_DIR}")
+    print(f"{'='*70}\n")
+    
     trainer.train()
+    
+    print(f"\n{'='*70}")
+    print(f"✅ Training Complete!")
+    print(f"{'='*70}")
+    print(f"Model saved to: {OUTPUT_DIR}")
+    print(f"\nTo test the model, run:")
+    print(f"  python scripts/test_model.py")
+    print(f"{'='*70}\n")
 
 if __name__ == "__main__":
     train()

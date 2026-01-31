@@ -1,7 +1,7 @@
 
 # Core ML Stack
 torch>=2.0.0
-transformers>=4.48.2
+transformers==4.48.2
 accelerate>=1.1.0
 bitsandbytes>=0.43.0
 peft>=0.17.1

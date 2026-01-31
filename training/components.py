@@ -97,13 +97,18 @@ class ConvergenceMonitor:
 
     def log(self, lm_loss, reg_loss, calib_loss):
         # Prevent division by zero
-        reg_to_lm = float(reg_loss) / (float(lm_loss) + 1e-6)
-        cal_to_lm = float(calib_loss) / (float(lm_loss) + 1e-6)
+        # Handle both tensors and scalars
+        lm_val = float(lm_loss.detach() if torch.is_tensor(lm_loss) else lm_loss)
+        reg_val = float(reg_loss.detach() if torch.is_tensor(reg_loss) else reg_loss)
+        cal_val = float(calib_loss.detach() if torch.is_tensor(calib_loss) else calib_loss)
+        
+        reg_to_lm = reg_val / (lm_val + 1e-6)
+        cal_to_lm = cal_val / (lm_val + 1e-6)
         
         entry = {
-            "lm_loss": float(lm_loss),
-            "reg_loss": float(reg_loss),
-            "calib_loss": float(calib_loss),
+            "lm_loss": lm_val,
+            "reg_loss": reg_val,
+            "calib_loss": cal_val,
             "reg_ratio": reg_to_lm,
             "cal_ratio": cal_to_lm
         }
@@ -115,7 +120,7 @@ class ConvergenceMonitor:
         if cal_to_lm > 10.0:
             print(f"⚠️  WARNING: Calibration loss is {cal_to_lm:.1f}x higher than LM loss. Consider lowering gamma.")
         
-        return f"Ratio-Reg/LM: {reg_to_lm:.3f}, Ratio-Cal/LM: {cal_to_lm:.3f}"
+        return f"R/LM: {reg_to_lm:.3f}, C/LM: {cal_to_lm:.3f}"
 
 class CausalDataCollator:
     """
