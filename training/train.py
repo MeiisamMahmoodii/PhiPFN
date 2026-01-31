@@ -42,7 +42,7 @@ else:
 
 def train():
     # 1. Load Tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=False)
     tokenizer.pad_token = tokenizer.eos_token
     
     # 2. Load Base Model
@@ -55,20 +55,20 @@ def train():
     
     print(f"Loading Phi-4 Mini on {DEVICE}...")
     
-    # Check for Flash Attention 2 (Great for 3090)
-    attn_implementation = "eager"
+    # Check for optimized attention (Great for 3090)
+    attn_implementation = "sdpa" # PyTorch Scaled Dot Product Attention (Fast fallback)
     try:
         import flash_attn
         attn_implementation = "flash_attention_2"
         print("Using Flash Attention 2")
     except ImportError:
-        pass
+        print("Flash Attention 2 not found, falling back to SDPA")
 
     phi_base = AutoModelForCausalLM.from_pretrained(
         MODEL_ID,
         quantization_config=bnb_config,
         device_map=DEVICE if DEVICE != "cpu" else None,
-        trust_remote_code=True,
+        trust_remote_code=False,
         dtype=COMPUTE_DTYPE,
         attn_implementation=attn_implementation
     )
